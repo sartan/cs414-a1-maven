@@ -2,18 +2,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <!-- Maven complains about dynamic groupId and artifactId, so hard-coding the values -->
+  <!-- Maven complains about dynamic groupId and artifactId, so hard-coding the values. -->
+  <!-- These values have no implication for assignment submission. -->
   <groupId>edu.colostate.cs.cs414.f14</groupId>
-  <artifactId>a1-changeme</artifactId>
+  <artifactId>a1-youreID</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <properties>
     <!-- Submission related properties -->
-    <csu.uID>changeme</csu.uID>
+    <csu.eID>changeme</csu.eID>
     <csu.assignment>a1</csu.assignment>
     <csu.course>cs414</csu.course>
-    <csu.sourceBaseDir>${csu.course}/${csu.assignment}/${csu.uID}</csu.sourceBaseDir>
-    <csu.file.name>${csu.assignment}-${csu.uID}</csu.file.name>
+    <csu.sourceBaseDir>${csu.course}/${csu.assignment}/${csu.eID}</csu.sourceBaseDir>
+    <csu.file.name>${csu.assignment}-${csu.eID}</csu.file.name>
     <csu.file.format>jar</csu.file.format>
 
     <!-- Project build properties -->
